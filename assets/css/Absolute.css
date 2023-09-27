@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: rgb(254,255,216);
+}
+main{
+    width: 500px;
+    background-color: rgb(255,255,255);
+    font-size: 14px;
+    box-shadow: 0 0 10px #666;
+    margin: 10px auto;
+    padding: 10px;
+height: 500px;
+}
+#principal{
+    background-color: rgb(240,240,240);
+    border: 1px dotted;
+    margin-top: 20px;
+    position: absolute;
+}
+section{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.janela1{
+    background-color: darkgreen;
+    position: absolute;
+   top: 10px;
+    left: 10px;
+}
+.janela2{
+    background-color: yellow;
+    position: absolute;
+   top: 30px;
+    left: 30px;
+}
+.janela3{
+    background-color:blue;
+    position: absolute;
+   top: 50px;
+    left: 50px;
+}
